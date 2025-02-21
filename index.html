@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guessing Game</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-  <div class="container">
-    <h1>Guess the Number</h1>
-    <p>Enter a number between 1 and 100:</p>
-    <input type="number" id="guessInput" min="1" max="100">
-    <button id="guessButton">Submit Guess</button>
-    <p id="feedback"></p>
-    <p>Number of attempts: <span id="attempts">0</span></p>
+  <h1>Match the product to the review</h1>
+
+  <div id="score"></div>
+  <div id="highscore"></div>
+
+  <div class="image-container">
+    <img src="" alt="Image 1" onclick="selectImage(1)">
+    <img src="" alt="Image 2" onclick="selectImage(2)">
+    <img src="" alt="Image 3" onclick="selectImage(3)">
   </div>
-  <script src="script.js"></script>
-</body>
+
+  <div class="star-container">
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+  </div>
+  <p id="review">Hurts too much, I dont understand why these are so popular. Im going back to toilet paper.</p>
+
+  <div id="message"></div>
+  <script src="script.js"></script> </body>
+
 </html>
+

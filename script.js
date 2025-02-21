@@ -1,12 +1,12 @@
 const quizzes = [
     {
-        images: ["images/image1.jpg", "images/image2.jpg", "images/image3.jpg"],
+        images: ["Images/image1.jpg", "Images/image2.jpg", "Images/image3.jpg"],
         correctImage: 2,
         review: "Hurts too much, I dont understand why these are so popular. Im going back to toilet paper.",
         rating: 2,
     },
     {
-        images: ["images/image4.jpg", "images/image5.jpg", "images/image6.jpg"],
+        images: ["Images/image4.jpg", "Images/image5.jpg", "Images/image6.jpg"],
         correctImage: 1,
         review: "Grandpa didnt complain.",
         rating: 5,
